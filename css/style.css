@@ -1255,7 +1255,7 @@ input[type="radio"] {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .amplop-title{
@@ -1340,7 +1340,7 @@ input[type="radio"] {
 }
 
 .bank{
-  margin-top: 50px;
+  margin-top: 15px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1388,7 +1388,7 @@ input[type="radio"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px;
   width: 100vw;
   height: 100px;
@@ -1771,6 +1771,76 @@ input[type="radio"] {
   .ornamen-date{
     top: 55px;
   }
+
+  .arrum-section{
+    margin-top: 0px;
+  }
+
+  .title{
+    bottom: 80px;
+  }
+
+  .title .nama-undangan h3{
+    margin: 2px;
+  }
+
+  #popup .popup-background .title .sampul-top{
+    width: 70px;
+    margin-bottom: 10px;
+  }
+
+  #popup .popup-background .title a img{
+    width: 130px!important;
+    margin-top: 20px;
+  }
+
+  
+  .containerr .content-top img{
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .content-top h3{
+    margin: 0px;
+  }
+
+  .pengantin{
+     margin-top: -120px;
+  }
+
+  .ornamen2{
+    top: -40px;
+  }
+
+  .ornamen2 img{
+    width: 95vw;
+    height: 37vh;
+  }
+
+  .ornamen-date{
+    top: 55px;
+  }
+
+  .arrum-section{
+    margin-top: 70px;
+  }
+
+  .bank{
+    margin-top: 10px;
+  }
+
+  .sorry-protokol{
+    margin-top: 30px;
+  }
+  
+  .sorry-protokol .protokol img{
+    width: 330px;
+    height: 300px;
+  }
+
+  .wish-img{
+    margin-top: 30px;
+  } 
 }
 
  @media(max-width: 576px){
