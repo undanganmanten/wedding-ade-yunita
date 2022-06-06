@@ -593,7 +593,7 @@ img{
 .arrum-section{
   width: 100vw;
   height: max-content;
-  margin-top: 0px;
+  margin-top: 730px;
 }
 
 .content-isra{ 
@@ -1107,7 +1107,7 @@ font-size: 40px;
 }
 
 .rsvp{
-  margin-top: 750px;
+  margin-top: 30px;
 }
 
 .rsvp .rsvp-title{
@@ -1388,7 +1388,7 @@ input[type="radio"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-bottom: 20px;
   width: 100vw;
   height: 100px;
@@ -1773,7 +1773,8 @@ input[type="radio"] {
   }
 
   .arrum-section{
-    margin-top: 0px;
+    margin-top: 780px;
+    margin-bottom: 50px;
   }
 
   .title{
@@ -1821,11 +1822,11 @@ input[type="radio"] {
     top: 55px;
   }
 
-  .arrum-section{
-    margin-top: 70px;
+  .bank{
+    margin-top: 10px;
   }
 
-  .bank{
+  .rsvp{
     margin-top: 10px;
   }
 
@@ -1839,7 +1840,7 @@ input[type="radio"] {
   }
 
   .wish-img{
-    margin-top: 30px;
+    margin-top: 70px;
   } 
 }
 
