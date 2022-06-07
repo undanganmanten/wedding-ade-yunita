@@ -350,8 +350,8 @@ img{
 
 .containerr .content-top img{
   width: 100px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .containerr .content-top .till-death{
@@ -384,7 +384,7 @@ img{
 .pengantin{
   width: 100vw;
   height: max-content;
-  margin-top: -150px;
+  margin-top: -130px;
 }
 
 .pengantin1{
@@ -593,7 +593,7 @@ img{
 .arrum-section{
   width: 100vw;
   height: max-content;
-  margin-top: 730px;
+  margin-top: 30px;
 }
 
 .content-isra{ 
@@ -1625,6 +1625,10 @@ input[type="radio"] {
 
 
 /* swipper gallery photo*/
+.jarak-gallery{
+  margin-top: 790px!important;
+}
+
 .gallery-photo{
   position: relative;
   height: 100%;
@@ -1773,7 +1777,7 @@ input[type="radio"] {
   }
 
   .arrum-section{
-    margin-top: 780px;
+    margin-top: 30px;
     margin-bottom: 50px;
   }
 
