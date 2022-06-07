@@ -218,10 +218,10 @@ function create_unfinished_task(){
     share: false,
     horizontalOrder: true,
     transitionDuration: '0.2s',
-    stagger: 30,
-    actualSize :true,
-    zoom: true,
-    autoplay: true,
-    progressBar: true,
-    fullScree: true
+    stagger: 30
+    // actualSize :true,
+    // zoom: true,
+    // autoplay: true,
+    // progressBar: true,
+    // fullScree: true
   });
