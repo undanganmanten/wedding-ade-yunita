@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ade &#9829; Yunita</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/light.css">
+    <link rel="stylesheet" type="text/css" href="css/light.css.map">
     <link rel="shortcut icon" href="asset/image/favicon.ico" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +17,23 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/plugins/mediumZoom/lg-medium-zoom.es5.min.js" integrity="sha512-5c1xKfCx2VKGw8gt7ZE3WA+wPqgc/ZfimGcPNKY0avm8NkCf9Ktz6OnWMd7OiV7lrpmwVE2K/+wsziCwMzO5DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/plugins/mediumZoom/lg-medium-zoom.min.js" integrity="sha512-a6NhQXCkFnEfhhcNd6DK+Ge6/UFQW/j27kHEX+W3I+bh6zPvxFyELrViY18UCVeBM0s9tDIuqbhnTyAzcPHl/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/plugins/autoplay/lg-autoplay.min.js" integrity="sha512-Xxpc6kNcuS2okllpmY2eyXViAnb64P0fWdLShs+YKfDU8Fovk4dXrBg+X7Q1KETns1GS8EleMwkiRxVdZNwCOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/plugins/autoplay/lg-autoplay.es5.min.js" integrity="sha512-8UzDAxSjOS3i0qYqeRBFGs4ObaMP+BEST28o25kW+LVtAIzqzHGI8/wwi6YaxY8lYmmBaqf2swvhGl52wtoodA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lg-zoom.min.css" integrity="sha512-SGo05yQXwPFKXE+GtWCn7J4OZQBaQIakZSxQSqUyVWqO0TAv3gaF/Vox1FmG4IyXJWDwu/lXzXqPOnfX1va0+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lg-fullscreen.min.css" integrity="sha512-JlgW3xkdBcsdFiSfFk5Cfj3sTgo3hA63/lPmZ4SXJegICSLcH43BuwDNlC9fqoUy2h3Tma8Eo48xlZ5XMjM+aQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lg-autoplay.min.css" integrity="sha512-LlHSkMTvyRwh1YjzXwk6bxjdt3huGhCyK1vlCC6f7Db/g+2sYXz2YNasyZHnMUgykqPksmD/44DIINhqpWBjig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lg-autoplay.min.css" integrity="sha512-LlHSkMTvyRwh1YjzXwk6bxjdt3huGhCyK1vlCC6f7Db/g+2sYXz2YNasyZHnMUgykqPksmD/44DIINhqpWBjig==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.12/dist/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.1.0/lg-thumbnail.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-fullscreen/1.1.0/lg-fullscreen.min.js"></script>
+
+
 </head>
 
 <body onload="toggle(),create_unfinished_task()">
@@ -171,7 +190,52 @@
     </div>
 
 
-
+    <div class="amplop jarak-gallery">
+        <div class="amplop-title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Gallery Photo</div>
+    </div>  
+    <div class="body-light">
+        <div class="demo-gallery">
+            <ul id="lightgallery" class="card_wrapper" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <li data-src="https://undanganmanten.my.id/wedding-ade-yunita/asset/image/galerry/0-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/0-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-ade-yunita/asset/image/galerry/4-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/4-min.jpg">
+                    </a>
+                </li>
+            
+                <li data-src="https://undanganmanten.my.id/wedding-ade-yunita/asset/image/galerry/1-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/1-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-ade-yunita/asset/image/galerry/5-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/5-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-ade-yunita/asset/image/galerry/2-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/2-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-ade-yunita/asset/image/galerry/6-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/6-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-ade-yunita/asset/image/galerry/3-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/3-min.jpg">
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -330,10 +394,8 @@
     </div> -->
 
 
-    
 
-
-    <div class="amplop" style="margin-top: 30px;">
+    <!-- <div class="amplop" style="margin-top: 30px;">
         <div class="amplop-title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Gallery Photo</div>
     </div>  
     <div class="gallery-photo"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
@@ -389,7 +451,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="wish-img" data-aos="fade-up" data-aos-duration="3000">
         <img src="asset/image/wish.png" alt="">
@@ -498,5 +560,6 @@
             })
         })
       </script>
+
 </body>
 </html>
