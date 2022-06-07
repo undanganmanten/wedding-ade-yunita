@@ -1,4 +1,3 @@
-
 function getParameterByName(name, url = window.location.href) {
   name = name.replace(/[\[\]]/g, '\\$&');
   var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -20,6 +19,9 @@ function toggle(){
     var popup = document.getElementById('popup');
     popup.classList.toggle('active');
 }
+
+
+
 
 var playOn = document.getElementById('song');
 
@@ -210,18 +212,16 @@ function create_unfinished_task(){
     console.log('---')
   }
 
-
-
   // light gallery
-  lightGallery(document.getElementById('lightgallery'), {
-    download: false,
-    share: false,
-    horizontalOrder: true,
-    transitionDuration: '0.2s',
-    stagger: 30
-    // actualSize :true,
-    // zoom: true,
-    // autoplay: true,
-    // progressBar: true,
-    // fullScree: true
-  });
+lightGallery(document.getElementById('lightgallery'), {
+  download: false,
+  share: false,
+  horizontalOrder: true,
+  transitionDuration: '0.2s',
+  stagger: 30,
+  actualSize :true,
+  zoom: true,
+  autoplay: true,
+  progressBar: true,
+  fullScree: true
+});
